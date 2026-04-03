@@ -1,0 +1,11 @@
+# include <stdio.h>
+
+// In this article, we will discuss about the ASCII values that are bit numbers used to represent the character in the C programming language.
+
+int main(){
+    char a = 'k';
+    
+    printf("The ASCII value of %c is %d", a);
+    return 0;
+    
+}
