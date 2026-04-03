@@ -1,0 +1,17 @@
+# include <stdio.h>
+ 
+// In this artical , we will learn to write a C program to convert temperature from Fahrenheit to celsius by applying the conversion formula to calculate the equivalent temperature in Celsius.
+// formula: T(c) = (T(F) - 32) * 5 /9
+
+
+    float fahrenheit(float f){
+        return ((f - 32.0) * 5.0 / 9.0);
+    }
+
+
+int main(){
+    float f = 40;
+    
+    printf("Temperature in Degree Celsius: %0.2f", fahrenheit(f));
+    return 0;
+}
