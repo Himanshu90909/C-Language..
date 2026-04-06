@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+// update the function
+const char* calculatorDisplay() {
+    return "Welcome to Calculator\n\nChoose one operation:\n1. Add\n2. Subtract\n3. Exit\n";
+}
+
+int main() {
+    printf("%s", calculatorDisplay());
+    return 0;
+}
