@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+// Global variable for book count
+int bookCount = 850;
+
+int main() {
+    // Step 1: Print the initial book count
+    printf("Books available before update: %d\n", bookCount);
+
+    // Step 2: Update the book count to 870
+    bookCount = 870;
+
+    // Step 3: Print updated count and update status
+    printf("Books available after update: %d\n", bookCount);
+    return 0;
+}
