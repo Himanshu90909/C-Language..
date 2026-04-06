@@ -1,0 +1,36 @@
+BMI Calculator Using Assignment Operators
+Write a program to calculate the Body Mass Index (BMI) of a person using their weight and height.
+
+Given Data: Weight = 72.0, Height = 1.75
+
+Steps to Complete:
+
+Store weight and height in separate float variables.
+Square the height using multiplication assignment (*=).
+Use division assignment (/=) to calculate BMI as weight / (height * height).
+Store the result in the same weight variable (acting as bmi).
+Print the final BMI rounded to 2 decimal places
+
+code:-
+#include <stdio.h>
+
+int main() {
+    // Declare and initialize weight and height
+    float weight = 72.0;   // in kilograms
+    float height = 1.75;   // in meters
+
+   // Write Your Code
+   
+    height *= height;
+    
+    weight /= height;
+   
+   
+   
+   
+   
+   // Print the final BMI (rounded to 2 decimal places)
+    printf("Calculated BMI: %.2f\n", weight);  
+
+    return 0;
+}
