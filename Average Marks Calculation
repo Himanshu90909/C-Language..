@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int totalMarks = 435;       // Total marks obtained by the student
+    int numberOfSubjects = 5;   // Number of subjects
+    float averageMarks;         // Variable to store the average
+
+    // Use the pre-decrement operator to decrease the number of subjects by 1
+    averageMarks = totalMarks / (float)(--numberOfSubjects);
+
+    // Print the average marks without rounding to two decimal places
+    printf("Average marks: %f\n", averageMarks);
+
+    return 0;
+}
