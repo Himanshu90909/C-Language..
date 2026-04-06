@@ -6,12 +6,17 @@ int main() {
     int redeemed = 5; 
     
    // write your code here
+   int total = baseScore + bonus;
    
-   
-   printf("Score after redemption: %d\n", total);      
+   printf("Score after bonus addition: %d\n", total);      
 
     // Show final values of bonus and redeemed
-    printf("Final bonus value: %d\n", bonus);           
+    int final_values = total - redeemed;
+    final_values++;
+    printf("Score after redemption: %d\n", final_values);
+    bonus++;
+    printf("Final bonus value: %d\n", bonus);   
+    redeemed--;
     printf("Final redeemed value: %d\n", redeemed);     
 
     return 0;
