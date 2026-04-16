@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    char day;
+
+    printf("Enter first letter of day: ");
+    scanf(" %c", &day);  // space before %c fixes newline issue
+
+    switch (day) {
+        case 'm': printf("Monday"); break;
+        case 't': printf("Tuesday"); break;
+        case 'w': printf("Wednesday"); break;
+        case 'f': printf("Friday"); break;
+        case 's': printf("Saturday or Sunday"); break;
+        default: printf("Invalid Day");
+    }
+
+    return 0;
+}
